@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "generate": "Tạo PPT",
+        "templates": "Mẫu",
+        "documents": "Tài liệu"
+    },
+    "home": {
+        "title": "Tự động hóa tài liệu PPT",
+        "description": "Tải lên tệp markdown và tự động tạo bản trình bày PowerPoint chuyên nghiệp.",
+        "startButton": "Bắt đầu tạo",
+        "viewTemplates": "Xem mẫu",
+        "featuresTitle": "Tính năng chính",
+        "feature1Title": "Hỗ trợ Markdown",
+        "feature1Desc": "Viết nội dung slide bằng cú pháp markdown đơn giản.",
+        "feature2Title": "Đa dạng mẫu",
+        "feature2Desc": "Chọn từ các mẫu được thiết kế chuyên nghiệp.",
+        "feature3Title": "Đa ngôn ngữ",
+        "feature3Desc": "Hỗ trợ tiếng Hàn, tiếng Anh và tiếng Việt.",
+        "feature4Title": "Tải xuống ngay",
+        "feature4Desc": "Tải xuống tệp PPT đã tạo ngay lập tức."
+    },
+    "templates": {
+        "title": "Mẫu PPT",
+        "description": "Chọn một mẫu để tạo bản trình bày của bạn.",
+        "empty": "Không có mẫu nào",
+        "emptyDescription": "Vui lòng liên hệ quản trị viên để thêm mẫu.",
+        "default": "Mặc định",
+        "noDescription": "Không có mô tả.",
+        "useTemplate": "Sử dụng mẫu này"
+    },
+    "generate": {
+        "title": "Tạo PPT",
+        "description": "Nhập nội dung markdown hoặc tải tệp lên để tạo PPT.",
+        "textInput": "Nhập văn bản",
+        "fileInput": "Tải tệp",
+        "dropFile": "Kéo tệp hoặc nhấp vào đây",
+        "dropHint": "Chỉ hỗ trợ tệp .md",
+        "markdownContent": "Nội dung Markdown",
+        "placeholder": "# Tiêu đề bài thuyết trình\n\n## Slide đầu tiên\n- Mục 1\n- Mục 2\n\n## Slide thứ hai\n- Nhập nội dung của bạn",
+        "generateButton": "Tạo PPT",
+        "generating": "Đang tạo...",
+        "emptyContent": "Vui lòng nhập nội dung markdown.",
+        "invalidFile": "Chỉ chấp nhận tệp markdown (.md).",
+        "error": "Đã xảy ra lỗi khi tạo PPT."
+    },
+    "documents": {
+        "title": "Tài liệu",
+        "description": "Xem và tải xuống các tài liệu đã tạo.",
+        "filterAll": "Tất cả",
+        "filterCompleted": "Hoàn thành",
+        "filterProcessing": "Đang xử lý",
+        "filterFailed": "Thất bại",
+        "empty": "Chưa có tài liệu nào",
+        "emptyDescription": "Bắt đầu bằng cách tạo một PPT.",
+        "startGenerate": "Tạo PPT",
+        "download": "Tải xuống",
+        "delete": "Xóa",
+        "confirmDelete": "Bạn có chắc chắn muốn xóa tài liệu này?",
+        "statusCompleted": "Hoàn thành",
+        "statusProcessing": "Đang xử lý",
+        "statusFailed": "Thất bại",
+        "statusPending": "Chờ xử lý"
+    },
+    "footer": {
+        "rights": "Đã đăng ký bản quyền.",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ",
+        "contact": "Liên hệ"
+    },
+    "common": {
+        "loading": "Đang tải...",
+        "clear": "Xóa",
+        "cancel": "Hủy",
+        "confirm": "Xác nhận",
+        "save": "Lưu",
+        "error": "Đã xảy ra lỗi."
+    }
+}

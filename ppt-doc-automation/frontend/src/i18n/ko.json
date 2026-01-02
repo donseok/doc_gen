@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "home": "홈",
+        "generate": "PPT 생성",
+        "templates": "템플릿",
+        "documents": "문서 목록"
+    },
+    "home": {
+        "title": "PPT 문서 자동화",
+        "description": "마크다운 파일을 업로드하고 전문적인 PowerPoint 프레젠테이션을 자동으로 생성하세요.",
+        "startButton": "PPT 생성 시작",
+        "viewTemplates": "템플릿 보기",
+        "featuresTitle": "주요 기능",
+        "feature1Title": "마크다운 지원",
+        "feature1Desc": "간단한 마크다운 문법으로 슬라이드 내용을 작성하세요.",
+        "feature2Title": "다양한 템플릿",
+        "feature2Desc": "전문적으로 디자인된 템플릿을 선택하여 사용하세요.",
+        "feature3Title": "다국어 지원",
+        "feature3Desc": "한국어, 영어, 베트남어를 지원합니다.",
+        "feature4Title": "즉시 다운로드",
+        "feature4Desc": "생성된 PPT 파일을 바로 다운로드 받으세요."
+    },
+    "templates": {
+        "title": "PPT 템플릿",
+        "description": "원하는 템플릿을 선택하여 프레젠테이션을 만들어 보세요.",
+        "empty": "등록된 템플릿이 없습니다",
+        "emptyDescription": "관리자에게 문의하여 템플릿을 추가해 주세요.",
+        "default": "기본",
+        "noDescription": "설명이 없습니다.",
+        "useTemplate": "이 템플릿 사용"
+    },
+    "generate": {
+        "title": "PPT 생성",
+        "description": "마크다운 내용을 입력하거나 파일을 업로드하여 PPT를 생성하세요.",
+        "textInput": "텍스트 입력",
+        "fileInput": "파일 업로드",
+        "dropFile": "파일을 드래그하거나 클릭하세요",
+        "dropHint": ".md 파일만 지원합니다",
+        "markdownContent": "마크다운 내용",
+        "placeholder": "# 프레젠테이션 제목\n\n## 첫 번째 슬라이드\n- 항목 1\n- 항목 2\n\n## 두 번째 슬라이드\n- 내용을 입력하세요",
+        "generateButton": "PPT 생성",
+        "generating": "생성 중...",
+        "emptyContent": "마크다운 내용을 입력해 주세요.",
+        "invalidFile": "마크다운(.md) 파일만 업로드 가능합니다.",
+        "error": "PPT 생성 중 오류가 발생했습니다."
+    },
+    "documents": {
+        "title": "문서 목록",
+        "description": "생성된 문서들을 확인하고 다운로드하세요.",
+        "filterAll": "전체",
+        "filterCompleted": "완료",
+        "filterProcessing": "처리 중",
+        "filterFailed": "실패",
+        "empty": "생성된 문서가 없습니다",
+        "emptyDescription": "PPT 생성을 시작해 보세요.",
+        "startGenerate": "PPT 생성하기",
+        "download": "다운로드",
+        "delete": "삭제",
+        "confirmDelete": "정말 이 문서를 삭제하시겠습니까?",
+        "statusCompleted": "완료",
+        "statusProcessing": "처리 중",
+        "statusFailed": "실패",
+        "statusPending": "대기 중"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "privacy": "개인정보처리방침",
+        "terms": "이용약관",
+        "contact": "문의하기"
+    },
+    "common": {
+        "loading": "로딩 중...",
+        "clear": "지우기",
+        "cancel": "취소",
+        "confirm": "확인",
+        "save": "저장",
+        "error": "오류가 발생했습니다."
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "nav": {
+        "home": "Home",
+        "generate": "Generate PPT",
+        "templates": "Templates",
+        "documents": "Documents"
+    },
+    "home": {
+        "title": "PPT Document Automation",
+        "description": "Upload markdown files and automatically generate professional PowerPoint presentations.",
+        "startButton": "Start Generating",
+        "viewTemplates": "View Templates",
+        "featuresTitle": "Key Features",
+        "feature1Title": "Markdown Support",
+        "feature1Desc": "Write slide content using simple markdown syntax.",
+        "feature2Title": "Various Templates",
+        "feature2Desc": "Choose from professionally designed templates.",
+        "feature3Title": "Multi-language",
+        "feature3Desc": "Supports Korean, English, and Vietnamese.",
+        "feature4Title": "Instant Download",
+        "feature4Desc": "Download generated PPT files instantly."
+    },
+    "templates": {
+        "title": "PPT Templates",
+        "description": "Select a template to create your presentation.",
+        "empty": "No templates available",
+        "emptyDescription": "Please contact administrator to add templates.",
+        "default": "Default",
+        "noDescription": "No description available.",
+        "useTemplate": "Use This Template"
+    },
+    "generate": {
+        "title": "Generate PPT",
+        "description": "Enter markdown content or upload a file to generate PPT.",
+        "textInput": "Text Input",
+        "fileInput": "File Upload",
+        "dropFile": "Drag a file or click here",
+        "dropHint": "Only .md files are supported",
+        "markdownContent": "Markdown Content",
+        "placeholder": "# Presentation Title\n\n## First Slide\n- Item 1\n- Item 2\n\n## Second Slide\n- Enter your content",
+        "generateButton": "Generate PPT",
+        "generating": "Generating...",
+        "emptyContent": "Please enter markdown content.",
+        "invalidFile": "Only markdown (.md) files are allowed.",
+        "error": "An error occurred while generating PPT."
+    },
+    "documents": {
+        "title": "Documents",
+        "description": "View and download generated documents.",
+        "filterAll": "All",
+        "filterCompleted": "Completed",
+        "filterProcessing": "Processing",
+        "filterFailed": "Failed",
+        "empty": "No documents generated",
+        "emptyDescription": "Start by generating a PPT.",
+        "startGenerate": "Generate PPT",
+        "download": "Download",
+        "delete": "Delete",
+        "confirmDelete": "Are you sure you want to delete this document?",
+        "statusCompleted": "Completed",
+        "statusProcessing": "Processing",
+        "statusFailed": "Failed",
+        "statusPending": "Pending"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "contact": "Contact"
+    },
+    "common": {
+        "loading": "Loading...",
+        "clear": "Clear",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "error": "An error occurred."
+    }
+}

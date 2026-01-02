@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m uvicorn:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(pip install:*)",
+      "Bash(start http://localhost:5174)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\test_output.pptx\")",
+      "Bash(start http://localhost:5174/generate)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
