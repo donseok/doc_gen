@@ -1,32 +1,32 @@
-# PPT Doc Automation
+# PPT 문서 자동화 (PPT Doc Automation)
 
-## Project Overview
-**PPT Doc Automation** is a full-stack application designed to automatically generate PowerPoint (`.pptx`) presentations from Markdown (`.md`) files. It streamlines the creation of slide decks by parsing structured markdown content and mapping it to PowerPoint templates.
+## 프로젝트 개요
+**PPT Doc Automation**은 마크다운(`.md`) 파일로부터 파워포인트(`.pptx`) 발표 자료를 자동으로 생성하도록 설계된 풀스택 애플리케이션입니다. 구조화된 마크다운 콘텐츠를 파싱하고 이를 파워포인트 템플릿에 매핑하여 슬라이드 데크 생성을 간소화합니다.
 
-**Key Technologies:**
-*   **Backend:** Python 3.11, FastAPI, SQLAlchemy, python-pptx
-*   **Frontend:** Vue.js 3, Vite, Pinia, Vue I18n
-*   **Database:** SQLite
-*   **Infrastructure:** Docker, Docker Compose
+**핵심 기술:**
+*   **백엔드:** Python 3.11, FastAPI, SQLAlchemy, python-pptx
+*   **프론트엔드:** Vue.js 3, Vite, Pinia, Vue I18n
+*   **데이터베이스:** SQLite
+*   **인프라:** Docker, Docker Compose
 
-## Architecture
-The system follows a clear separation of concerns:
-*   **Frontend (`frontend/`)**: A Vue.js Single Page Application (SPA) for managing templates, uploading markdown, and viewing generation history.
-*   **Backend (`backend/`)**: A FastAPI REST API that handles file processing, database operations, and slide generation logic.
-*   **Core Logic**:
-    *   `MarkdownParser`: Converts markdown text into structured slide data.
-    *   `PPTGenerator`: Renders the structured data into `.pptx` files using `python-pptx`.
+## 아키텍처
+시스템은 명확한 관심사 분리 원칙을 따릅니다:
+*   **프론트엔드 (`frontend/`)**: 템플릿 관리, 마크다운 업로드 및 생성 이력 조회를 위한 Vue.js 싱글 페이지 애플리케이션(SPA).
+*   **백엔드 (`backend/`)**: 파일 처리, 데이터베이스 작업 및 슬라이드 생성 로직을 담당하는 FastAPI REST API.
+*   **핵심 로직**:
+    *   `MarkdownParser`: 마크다운 텍스트를 구조화된 슬라이드 데이터로 변환합니다.
+    *   `PPTGenerator`: 구조화된 데이터를 `python-pptx`를 사용하여 `.pptx` 파일로 렌더링합니다.
 
-## Getting Started
+## 시작하기
 
-### Prerequisites
+### 사전 요구 사항
 *   Python 3.11+
 *   Node.js 18+
-*   Docker & Docker Compose (optional but recommended)
+*   Docker 및 Docker Compose (선택 사항이지만 권장됨)
 
-### Running Locally
+### 로컬에서 실행하기
 
-**1. Backend (FastAPI)**
+**1. 백엔드 (FastAPI)**
 ```bash
 cd ppt-doc-automation/backend
 python -m venv venv
@@ -38,39 +38,39 @@ venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
-API Documentation will be available at `http://localhost:8000/docs`.
+API 문서는 `http://localhost:8000/docs`에서 확인할 수 있습니다.
 
-**2. Frontend (Vue.js)**
+**2. 프론트엔드 (Vue.js)**
 ```bash
 cd ppt-doc-automation/frontend
 npm install
 npm run dev
 ```
-The application will run at `http://localhost:5173` (default Vite port) or the port specified in the output.
+애플리케이션은 `http://localhost:5173` (기본 Vite 포트) 또는 출력된 포트에서 실행됩니다.
 
-### Running with Docker
+### Docker로 실행하기
 ```bash
 cd ppt-doc-automation
 docker-compose up --build
 ```
-*   Frontend: `http://localhost:3000`
-*   Backend: `http://localhost:8000`
+*   프론트엔드: `http://localhost:3000`
+*   백엔드: `http://localhost:8000`
 
-## Development Conventions
+## 개발 컨벤션
 
-*   **Project Structure:**
-    *   `backend/app/`: Contains all backend application code.
-    *   `frontend/src/`: Contains all frontend source code.
-    *   `docs/`: Additional documentation (API specs, DB schema, MD format).
-    *   `templates/`: Stores the base PowerPoint templates.
-*   **Linting:**
-    *   Frontend: `npm run lint` (ESLint)
-*   **Internationalization:** The frontend supports multiple languages (Korean, English, Vietnamese) located in `frontend/src/i18n/`.
-*   **Markdown Format:** See `docs/MD_FORMAT.md` for the specific markdown syntax required for slide generation.
+*   **프로젝트 구조:**
+    *   `backend/app/`: 모든 백엔드 애플리케이션 코드를 포함합니다.
+    *   `frontend/src/`: 모든 프론트엔드 소스 코드를 포함합니다.
+    *   `docs/`: 추가 문서 (API 사양, DB 스키마, MD 형식).
+    *   `templates/`: 기본 파워포인트 템플릿을 저장합니다.
+*   **린팅 (Linting):**
+    *   프론트엔드: `npm run lint` (ESLint)
+*   **국제화 (i18n):** 프론트엔드는 여러 언어(한국어, 영어, 베트남어)를 지원하며 `frontend/src/i18n/`에 위치합니다.
+*   **마크다운 형식:** 슬라이드 생성에 필요한 특정 마크다운 문법은 `docs/MD_FORMAT.md`를 참조하세요.
 
-## Documentation
-Refer to the `docs/` directory for detailed specifications:
-*   `docs/REQUIREMENTS.md`: System requirements
-*   `docs/DB_SCHEMA.md`: Database schema details
-*   `docs/API_SPEC.md`: API endpoints
-*   `docs/MD_FORMAT.md`: Markdown syntax guide
+## 문서화
+상세 사양은 `docs/` 디렉토리를 참조하세요:
+*   `docs/REQUIREMENTS.md`: 시스템 요구 사항
+*   `docs/DB_SCHEMA.md`: 데이터베이스 스키마 상세
+*   `docs/API_SPEC.md`: API 엔드포인트
+*   `docs/MD_FORMAT.md`: 마크다운 문법 가이드
