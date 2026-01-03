@@ -39,15 +39,26 @@ export const templatesApi = {
     /**
      * 템플릿 파일 업로드
      */
-    upload: (file, name, description) => {
+    upload: (file, name, description = '', isDefault = false) => {
         const formData = new FormData()
         formData.append('file', file)
+        formData.append('name', name)
+        if (description) {
+            formData.append('description', description)
+        }
+        formData.append('is_default', isDefault)
 
         return apiClient.post('/templates/upload', formData, {
-            params: { name, description },
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
         })
+    },
+
+    /**
+     * 템플릿 스타일 정보 조회
+     */
+    getStyle: (id) => {
+        return apiClient.get(`/templates/${id}/style`)
     },
 }

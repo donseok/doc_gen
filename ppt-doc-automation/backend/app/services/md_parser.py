@@ -285,6 +285,10 @@ class RegexParser(MarkdownParserStrategy):
         self.numbered_pattern = re.compile(r'^\d+\.\s+(.+)$', re.MULTILINE)
         self.image_pattern = re.compile(r'!\[([^\]]*)\]\(([^)]+)\)')
         self.code_block_pattern = re.compile(r'```(\w*)\n(.*?)```', re.DOTALL)
+        # 테이블 행 패턴: | 로 시작하고 끝나는 라인
+        self.table_row_pattern = re.compile(r'^\|(.+)\|$', re.MULTILINE)
+        # 테이블 구분선 패턴: |---|---|
+        self.table_separator_pattern = re.compile(r'^\|[\s\-:]+\|$', re.MULTILINE)
 
     def parse(self, md_content: str) -> Dict[str, Any]:
         result = {
@@ -342,6 +346,7 @@ class RegexParser(MarkdownParserStrategy):
             "content": [],
             "images": [],
             "code_blocks": [],
+            "tables": [],  # 테이블 데이터 추가
             "layout": "title_content",
         }
 
@@ -351,11 +356,36 @@ class RegexParser(MarkdownParserStrategy):
             slide["title"] = lines[0][3:].strip()
             lines = lines[1:]
 
+        # 테이블 파싱을 위한 상태 관리
+        table_buffer = []
+        in_table = False
+
         for line in lines:
             line = line.strip()
 
             if not line:
+                # 테이블이 끝났으면 저장
+                if in_table and table_buffer:
+                    table_data = self._parse_table(table_buffer)
+                    if table_data:
+                        slide["tables"].append(table_data)
+                    table_buffer = []
+                    in_table = False
                 continue
+
+            # 테이블 행 감지 (| 로 시작하고 끝나는 라인)
+            if line.startswith('|') and line.endswith('|'):
+                in_table = True
+                table_buffer.append(line)
+                continue
+
+            # 테이블이 끝났으면 저장
+            if in_table and table_buffer:
+                table_data = self._parse_table(table_buffer)
+                if table_data:
+                    slide["tables"].append(table_data)
+                table_buffer = []
+                in_table = False
 
             img_match = self.image_pattern.search(line)
             if img_match:
@@ -388,10 +418,20 @@ class RegexParser(MarkdownParserStrategy):
                 })
                 continue
 
+            # 수평선 (---) 무시
+            if line.startswith('---'):
+                continue
+
             slide["content"].append({
                 "type": "text",
                 "text": line,
             })
+
+        # 섹션 끝에서 남은 테이블 처리
+        if table_buffer:
+            table_data = self._parse_table(table_buffer)
+            if table_data:
+                slide["tables"].append(table_data)
 
         code_matches = self.code_block_pattern.findall(section)
         for lang, code in code_matches:
@@ -406,8 +446,63 @@ class RegexParser(MarkdownParserStrategy):
             slide["layout"] = "image_content"
         elif slide["code_blocks"]:
             slide["layout"] = "code"
+        elif slide["tables"]:
+            slide["layout"] = "table"
 
-        return slide if slide["title"] or slide["content"] else None
+        return slide if slide["title"] or slide["content"] or slide["tables"] else None
+
+    def _parse_table(self, table_lines: List[str]) -> Optional[Dict[str, Any]]:
+        """
+        마크다운 테이블을 파싱하여 구조화된 데이터로 변환
+
+        Args:
+            table_lines: 테이블 행 목록 (| col1 | col2 | 형식)
+
+        Returns:
+            {"headers": [...], "rows": [[...], [...]]} 형식의 딕셔너리
+        """
+        if len(table_lines) < 2:
+            return None
+
+        headers = []
+        rows = []
+
+        for i, line in enumerate(table_lines):
+            # | 로 분리하고 빈 셀 제거
+            cells = [cell.strip() for cell in line.split('|')]
+            # 앞뒤 빈 문자열 제거 (| col | col | 형식에서 발생)
+            cells = [c for c in cells if c]
+
+            # 구분선 (|---|---| 형식) 스킵
+            if cells and all(set(c.replace('-', '').replace(':', '').strip()) == set() for c in cells):
+                continue
+
+            if i == 0:
+                # 첫 번째 행은 헤더
+                # ** 볼드 마크다운 제거
+                headers = [self._clean_cell_text(c) for c in cells]
+            else:
+                # 나머지는 데이터 행
+                if cells and len(cells) > 0:
+                    rows.append([self._clean_cell_text(c) for c in cells])
+
+        if not headers:
+            return None
+
+        return {
+            "headers": headers,
+            "rows": rows,
+        }
+
+    def _clean_cell_text(self, text: str) -> str:
+        """셀 텍스트에서 마크다운 서식 제거"""
+        # ** 볼드 제거
+        text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)
+        # * 이탤릭 제거
+        text = re.sub(r'\*([^*]+)\*', r'\1', text)
+        # ` 코드 제거
+        text = re.sub(r'`([^`]+)`', r'\1', text)
+        return text.strip()
 
 
 class MarkdownParser:

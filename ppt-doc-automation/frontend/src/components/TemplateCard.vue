@@ -9,20 +9,26 @@ const props = defineProps({
   }
 })
 
+const emit = defineEmits(['delete'])
+
 const { t } = useI18n()
 const router = useRouter()
 
 const useTemplate = () => {
   router.push({ path: '/generate', query: { template: props.template.id } })
 }
+
+const deleteTemplate = () => {
+  emit('delete', props.template.id)
+}
 </script>
 
 <template>
   <div class="template-card card">
     <div class="template-thumbnail">
-      <img 
-        v-if="template.thumbnail_path" 
-        :src="template.thumbnail_path" 
+      <img
+        v-if="template.thumbnail_path"
+        :src="template.thumbnail_path"
         :alt="template.name"
       />
       <div v-else class="thumbnail-placeholder">
@@ -31,6 +37,9 @@ const useTemplate = () => {
       <div v-if="template.is_default" class="default-badge">
         {{ t('templates.default') }}
       </div>
+      <button class="delete-btn" @click.stop="deleteTemplate" title="삭제">
+        &times;
+      </button>
     </div>
     <div class="template-info">
       <h3 class="template-name">{{ template.name }}</h3>
@@ -82,13 +91,38 @@ const useTemplate = () => {
 .default-badge {
   position: absolute;
   top: var(--spacing-sm);
-  right: var(--spacing-sm);
+  left: var(--spacing-sm);
   background: var(--color-primary);
   color: white;
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--radius-sm);
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+.delete-btn {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.template-card:hover .delete-btn {
+  opacity: 1;
+}
+
+.delete-btn:hover {
+  background: rgba(220, 53, 69, 0.9);
 }
 
 .template-info {

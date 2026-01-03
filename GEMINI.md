@@ -15,6 +15,9 @@
 *   **백엔드 (`backend/`)**: 파일 처리, 데이터베이스 작업 및 슬라이드 생성 로직을 담당하는 FastAPI REST API.
 *   **핵심 로직**:
     *   `MarkdownParser`: 마크다운 텍스트를 구조화된 슬라이드 데이터로 변환합니다.
+    *   `ContentSummarizer`: 슬라이드에 적합하도록 긴 텍스트를 요약합니다.
+    *   `PPTDesigner`: 슬라이드 레이아웃과 디자인 요소를 결정합니다.
+    *   `TemplateAnalyzer`: 파워포인트 템플릿의 레이아웃과 플레이스홀더를 분석합니다.
     *   `PPTGenerator`: 구조화된 데이터를 `python-pptx`를 사용하여 `.pptx` 파일로 렌더링합니다.
 
 ## 시작하기
@@ -59,10 +62,15 @@ docker-compose up --build
 ## 개발 컨벤션
 
 *   **프로젝트 구조:**
-    *   `backend/app/`: 모든 백엔드 애플리케이션 코드를 포함합니다.
-    *   `frontend/src/`: 모든 프론트엔드 소스 코드를 포함합니다.
-    *   `docs/`: 추가 문서 (API 사양, DB 스키마, MD 형식).
-    *   `templates/`: 기본 파워포인트 템플릿을 저장합니다.
+    *   `backend/app/`: FastAPI 기반 백엔드 로직.
+    *   `backend/templates/`: 파워포인트 템플릿 파일(`.pptx`) 저장소.
+    *   `backend/samples/`: 마크다운 샘플 파일 저장소.
+    *   `backend/output/`: 생성된 결과물 저장소.
+    *   `frontend/src/`: Vue.js 기반 프론트엔드 소스 코드.
+    *   `docs/`: 프로젝트 관련 상세 문서.
+*   **확장성:** 
+    *   스토리지: 로컬 파일 시스템 외에 AWS S3 및 호환 스토리지(MinIO 등)를 지원하도록 설계되었습니다.
+    *   파서: 기존 정규식 기반 파서 외에 확장 가능한 구조의 마크다운 파서를 제공합니다.
 *   **린팅 (Linting):**
     *   프론트엔드: `npm run lint` (ESLint)
 *   **국제화 (i18n):** 프론트엔드는 여러 언어(한국어, 영어, 베트남어)를 지원하며 `frontend/src/i18n/`에 위치합니다.
@@ -74,3 +82,5 @@ docker-compose up --build
 *   `docs/DB_SCHEMA.md`: 데이터베이스 스키마 상세
 *   `docs/API_SPEC.md`: API 엔드포인트
 *   `docs/MD_FORMAT.md`: 마크다운 문법 가이드
+*   `docs/USER_MANUAL.md`: 사용자 매뉴얼
+*   `docs/프로젝트_수행계획서.md`: 프로젝트 수행 계획서
