@@ -44,6 +44,12 @@ nul
 *.log
 logs/
 
+# Debug files
+debug_log.txt
+test_debug.txt
+*_debug.txt
+debug_*.txt
+
 # Test coverage
 htmlcov/
 .coverage
