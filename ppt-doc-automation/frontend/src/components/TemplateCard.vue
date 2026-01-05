@@ -42,7 +42,15 @@ const deleteTemplate = () => {
       </button>
     </div>
     <div class="template-info">
-      <h3 class="template-name">{{ template.name }}</h3>
+      <div class="template-header">
+        <h3 class="template-name">{{ template.name }}</h3>
+        <span
+          class="category-badge"
+          :class="template.category || 'group'"
+        >
+          {{ template.category === 'customer' ? '고객사' : '그룹사' }}
+        </span>
+      </div>
       <p class="template-description">{{ template.description || t('templates.noDescription') }}</p>
     </div>
     <div class="template-actions">
@@ -130,9 +138,40 @@ const deleteTemplate = () => {
   flex: 1;
 }
 
+.template-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: var(--spacing-sm);
+}
+
 .template-name {
   font-size: 1.125rem;
-  margin-bottom: var(--spacing-sm);
+  margin: 0;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.category-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.category-badge.group {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.category-badge.customer {
+  background: #e8f5e9;
+  color: #2e7d32;
 }
 
 .template-description {

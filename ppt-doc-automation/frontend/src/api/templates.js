@@ -38,14 +38,20 @@ export const templatesApi = {
 
     /**
      * 템플릿 파일 업로드
+     * @param {File} file - PPTX 파일
+     * @param {string} name - 템플릿 이름
+     * @param {string} description - 설명
+     * @param {string} category - 카테고리 (group: 그룹사, customer: 고객사)
+     * @param {boolean} isDefault - 기본 템플릿 여부
      */
-    upload: (file, name, description = '', isDefault = false) => {
+    upload: (file, name, description = '', category = 'group', isDefault = false) => {
         const formData = new FormData()
         formData.append('file', file)
         formData.append('name', name)
         if (description) {
             formData.append('description', description)
         }
+        formData.append('category', category)
         formData.append('is_default', isDefault)
 
         return apiClient.post('/templates/upload', formData, {

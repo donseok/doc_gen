@@ -27,19 +27,23 @@ async def list_templates(
     page: int = Query(1, ge=1, description="페이지 번호"),
     page_size: int = Query(10, ge=1, le=100, description="페이지 크기"),
     is_active: Optional[bool] = Query(None, description="활성 상태 필터"),
+    category: Optional[str] = Query(None, description="카테고리 필터 (group: 그룹사, customer: 고객사)"),
     db: Session = Depends(get_db),
 ):
     """
     템플릿 목록 조회
     """
     query = db.query(Template)
-    
+
     if is_active is not None:
         query = query.filter(Template.is_active == is_active)
-    
+
+    if category is not None:
+        query = query.filter(Template.category == category)
+
     total = query.count()
     items = query.offset((page - 1) * page_size).limit(page_size).all()
-    
+
     return TemplateListResponse(
         items=items,
         total=total,
@@ -121,6 +125,7 @@ async def upload_template(
     file: UploadFile = File(...),
     name: str = Form(..., description="템플릿 이름"),
     description: Optional[str] = Form(None, description="템플릿 설명"),
+    category: str = Form("group", description="카테고리 (group: 그룹사, customer: 고객사)"),
     is_default: bool = Form(False, description="기본 템플릿 여부"),
     db: Session = Depends(get_db),
 ):
@@ -128,9 +133,14 @@ async def upload_template(
     템플릿 파일 업로드 및 분석
 
     업로드된 PPTX 파일을 분석하여 디자인 요소를 추출하고 저장합니다.
+    카테고리에 따라 그룹사/고객사 디렉토리에 저장됩니다.
     """
     if not file.filename.endswith(".pptx"):
         raise HTTPException(status_code=400, detail="PPTX 파일만 업로드 가능합니다")
+
+    # 카테고리 유효성 검증
+    if category not in ["group", "customer"]:
+        raise HTTPException(status_code=400, detail="카테고리는 'group' 또는 'customer'만 가능합니다")
 
     # 파일 크기 확인
     contents = await file.read()
@@ -140,13 +150,19 @@ async def upload_template(
             detail=f"파일 크기가 너무 큽니다. 최대 {settings.MAX_UPLOAD_SIZE // (1024*1024)}MB까지 가능합니다."
         )
 
+    # 카테고리별 디렉토리 설정
+    if category == "group":
+        target_dir = settings.TEMPLATES_GROUP_DIR
+    else:
+        target_dir = settings.TEMPLATES_CUSTOMER_DIR
+
     # 고유 파일명 생성
     unique_id = str(uuid.uuid4())[:8]
     safe_filename = f"{unique_id}_{file.filename}"
-    file_path = os.path.join(settings.TEMPLATES_DIR, safe_filename)
+    file_path = os.path.join(target_dir, safe_filename)
 
     # 파일 저장
-    os.makedirs(settings.TEMPLATES_DIR, exist_ok=True)
+    os.makedirs(target_dir, exist_ok=True)
     with open(file_path, "wb") as f:
         f.write(contents)
 
@@ -171,6 +187,7 @@ async def upload_template(
     template = Template(
         name=name,
         description=description,
+        category=category,
         file_path=file_path,
         is_default=is_default,
         is_active=True,
@@ -183,6 +200,7 @@ async def upload_template(
         "message": "템플릿이 업로드되었습니다",
         "template_id": template.id,
         "name": template.name,
+        "category": category,
         "file_path": file_path,
         "style_info": style_info,
     }

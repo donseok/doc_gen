@@ -2,6 +2,7 @@
 템플릿 모델
 """
 from datetime import datetime
+from enum import Enum
 from typing import Optional
 from sqlalchemy import String, Text, Boolean
 from sqlalchemy.orm import Mapped, mapped_column
@@ -9,14 +10,21 @@ from sqlalchemy.orm import Mapped, mapped_column
 from app.database import Base
 
 
+class TemplateCategory(str, Enum):
+    """템플릿 카테고리"""
+    GROUP = "group"       # 그룹사
+    CUSTOMER = "customer" # 고객사
+
+
 class Template(Base):
     """PPT 템플릿 모델"""
-    
+
     __tablename__ = "templates"
-    
+
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
     name: Mapped[str] = mapped_column(String(255), nullable=False, index=True)
     description: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
+    category: Mapped[str] = mapped_column(String(50), default=TemplateCategory.GROUP.value, index=True)
     file_path: Mapped[str] = mapped_column(String(500), nullable=False)
     thumbnail_path: Mapped[Optional[str]] = mapped_column(String(500), nullable=True)
     is_default: Mapped[bool] = mapped_column(Boolean, default=False)

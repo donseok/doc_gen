@@ -13,10 +13,12 @@ const uploadForm = ref({
   file: null,
   name: '',
   description: '',
+  category: 'group', // 기본값: 그룹사
   isDefault: false,
 })
 const uploadError = ref('')
 const uploadSuccess = ref('')
+const activeFilter = ref(null) // null: 전체, 'group': 그룹사, 'customer': 고객사
 
 onMounted(async () => {
   loading.value = true
@@ -24,11 +26,20 @@ onMounted(async () => {
   loading.value = false
 })
 
+function setFilter(category) {
+  activeFilter.value = category
+  loading.value = true
+  templateStore.fetchTemplates(category).finally(() => {
+    loading.value = false
+  })
+}
+
 function openUploadModal() {
   uploadForm.value = {
     file: null,
     name: '',
     description: '',
+    category: 'group',
     isDefault: false,
   }
   uploadError.value = ''
@@ -67,6 +78,7 @@ async function handleUpload() {
       uploadForm.value.file,
       uploadForm.value.name,
       uploadForm.value.description,
+      uploadForm.value.category,
       uploadForm.value.isDefault
     )
     uploadSuccess.value = '템플릿이 업로드되었습니다!'
@@ -101,6 +113,31 @@ async function handleDeleteTemplate(templateId) {
         <button class="upload-btn" @click="openUploadModal">
           <span class="upload-icon">+</span>
           템플릿 업로드
+        </button>
+      </div>
+
+      <!-- 필터 탭 -->
+      <div class="filter-tabs">
+        <button
+          class="filter-tab"
+          :class="{ active: activeFilter === null }"
+          @click="setFilter(null)"
+        >
+          전체
+        </button>
+        <button
+          class="filter-tab"
+          :class="{ active: activeFilter === 'group' }"
+          @click="setFilter('group')"
+        >
+          <span class="category-badge group">그룹사</span>
+        </button>
+        <button
+          class="filter-tab"
+          :class="{ active: activeFilter === 'customer' }"
+          @click="setFilter('customer')"
+        >
+          <span class="category-badge customer">고객사</span>
         </button>
       </div>
     </header>
@@ -168,6 +205,34 @@ async function handleDeleteTemplate(templateId) {
           </div>
 
           <div class="form-group">
+            <label>카테고리 *</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input
+                  type="radio"
+                  v-model="uploadForm.category"
+                  value="group"
+                />
+                <span class="radio-text">
+                  <span class="category-badge group">그룹사</span>
+                  사내 그룹사용 템플릿
+                </span>
+              </label>
+              <label class="radio-label">
+                <input
+                  type="radio"
+                  v-model="uploadForm.category"
+                  value="customer"
+                />
+                <span class="radio-text">
+                  <span class="category-badge customer">고객사</span>
+                  외부 고객사용 템플릿
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
             <label>설명 (선택)</label>
             <textarea
               v-model="uploadForm.description"
@@ -232,6 +297,57 @@ async function handleDeleteTemplate(templateId) {
 .page-description {
   color: var(--color-text-secondary);
   font-size: 1.125rem;
+}
+
+/* 필터 탭 */
+.filter-tabs {
+  display: flex;
+  gap: 8px;
+  margin-top: var(--spacing-lg);
+}
+
+.filter-tab {
+  padding: 8px 16px;
+  background: var(--color-surface);
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.filter-tab:hover {
+  border-color: var(--color-primary);
+}
+
+.filter-tab.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+.filter-tab.active .category-badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* 카테고리 뱃지 */
+.category-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.category-badge.group {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.category-badge.customer {
+  background: #e8f5e9;
+  color: #2e7d32;
 }
 
 .upload-btn {
@@ -432,6 +548,48 @@ async function handleDeleteTemplate(templateId) {
 .file-input-label:hover {
   border-color: var(--color-primary);
   background-color: #f8f9fa;
+}
+
+/* 라디오 그룹 */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.radio-label:hover {
+  border-color: var(--color-primary);
+  background: #f8f9fa;
+}
+
+.radio-label:has(input:checked) {
+  border-color: var(--color-primary);
+  background: #f0f7ff;
+}
+
+.radio-label input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--color-primary);
+}
+
+.radio-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
 }
 
 .checkbox-group {

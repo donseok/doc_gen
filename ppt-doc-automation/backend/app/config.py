@@ -22,6 +22,8 @@ class Settings(BaseSettings):
 
     # 디렉토리 설정
     TEMPLATES_DIR: str = "./templates"
+    TEMPLATES_GROUP_DIR: str = "./templates/group"       # 그룹사 템플릿
+    TEMPLATES_CUSTOMER_DIR: str = "./templates/customer" # 고객사 템플릿
     SAMPLES_DIR: str = "./samples"
     OUTPUT_DIR: str = "./output"
 
@@ -59,6 +61,8 @@ settings = Settings()
 
 # 필요한 디렉토리 생성
 os.makedirs(settings.TEMPLATES_DIR, exist_ok=True)
+os.makedirs(settings.TEMPLATES_GROUP_DIR, exist_ok=True)
+os.makedirs(settings.TEMPLATES_CUSTOMER_DIR, exist_ok=True)
 os.makedirs(settings.SAMPLES_DIR, exist_ok=True)
 os.makedirs(settings.OUTPUT_DIR, exist_ok=True)
 
