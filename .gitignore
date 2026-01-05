@@ -35,6 +35,10 @@ yarn-error.log*
 output/
 data/
 
+# Template uploaded files (keep directory structure only)
+ppt-doc-automation/backend/templates/**/*.pptx
+ppt-doc-automation/backend/templates/**/*_style.json
+
 # OS
 .DS_Store
 Thumbs.db
