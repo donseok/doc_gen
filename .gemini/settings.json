@@ -1,0 +1,16 @@
+{
+  "general": {
+    "language": "ko",
+    "timezone": "Asia/Seoul",
+    "theme": "auto"
+  },
+  "project": {
+    "name": "ppt-doc-automation",
+    "root": "C:\\Users\\donse\\doc_gen",
+    "environment": "development"
+  },
+  "permissions": {
+    "auto_approve_safe_commands": true,
+    "require_confirmation_for_writes": true
+  }
+}

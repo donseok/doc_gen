@@ -43,7 +43,15 @@
       "Bash(timeout:*)",
       "Bash(cmd.exe /c start http://localhost:5174/templates)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: PPT 생성 파이프라인 고도화 및 템플릿 관리 기능 개선\n\n주요 변경사항:\n- AST 기반 마크다운 파서 도입 \\(mistune 활용\\)\n- 콘텐츠 요약 에이전트 추가 \\(content_summarizer.py\\)\n- PPT 디자인 에이전트 추가 \\(ppt_designer.py\\)\n- 템플릿 분석 기능 추가 \\(template_analyzer.py\\)\n- 테이블 파싱 지원\n- 프론트엔드 템플릿 관리 UI 개선\n- CLAUDE.md 문서 업데이트\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebSearch",
+      "Bash(mkdir:*)",
+      "Bash(systeminfo:*)",
+      "Bash(wmic cpu get name,numberofcores,numberoflogicalprocessors /format:list)",
+      "Bash(wmic diskdrive get model,size /format:list)",
+      "Bash(wmic os get caption,osarchitecture /format:list)",
+      "Bash(wmic computersystem get totalphysicalmemory /format:list)",
+      "Bash(wmic path win32_videocontroller get name:*)"
     ]
   }
 }
