@@ -51,7 +51,21 @@
       "Bash(wmic diskdrive get model,size /format:list)",
       "Bash(wmic os get caption,osarchitecture /format:list)",
       "Bash(wmic computersystem get totalphysicalmemory /format:list)",
-      "Bash(wmic path win32_videocontroller get name:*)"
+      "Bash(wmic path win32_videocontroller get name:*)",
+      "Bash(cmd.exe /c start http://localhost:5173/templates)",
+      "Bash(ppt-doc-automation/backend/app/config.py )",
+      "Bash(ppt-doc-automation/backend/app/models/template.py )",
+      "Bash(ppt-doc-automation/backend/app/routers/templates.py )",
+      "Bash(ppt-doc-automation/backend/app/schemas/template.py )",
+      "Bash(ppt-doc-automation/frontend/src/api/templates.js )",
+      "Bash(ppt-doc-automation/frontend/src/components/TemplateCard.vue )",
+      "Bash(ppt-doc-automation/frontend/src/stores/template.js )",
+      "Bash(ppt-doc-automation/frontend/src/views/TemplatesView.vue)",
+      "Bash(__NEW_LINE__ echo \"🔵 그룹사 필터:\")",
+      "Bash(__NEW_LINE__ echo \"🟢 고객사 필터:\")",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\ppt-doc-automation\\\\backend\\\\output\\\\Quarterly Report Q1 2026_4f4b502d.pptx\")",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\ppt-doc-automation\\\\backend\\\\output\\\\Customer Project Proposal_ac142b60.pptx\")",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\ppt-doc-automation\\\\backend\")"
     ]
   }
 }
