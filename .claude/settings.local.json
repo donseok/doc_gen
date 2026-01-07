@@ -67,7 +67,10 @@
       "Bash(cmd.exe /c start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\ppt-doc-automation\\\\backend\\\\output\\\\Customer Project Proposal_ac142b60.pptx\")",
       "Bash(cmd.exe /c start \"\" \"C:\\\\Users\\\\donse\\\\doc_gen\\\\ppt-doc-automation\\\\backend\")",
       "Bash(start \"\" \"d:\\\\doc_gen\\\\ppt-doc-automation\\\\backend\\\\output\\\\스마트 물류관리 시스템 구축 프로젝트 수행계획서_dbc65643.pptx\")",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "Bash(dir:*)",
+      "Bash(start \"\" \"d:\\\\doc_gen\\\\ppt-doc-automation\\\\backend\\\\output\\\\스마트 물류관리 시스템 구축 프로젝트 수행계획서_7b5acce5.pptx\")",
+      "Bash(start:*)"
     ]
   }
 }

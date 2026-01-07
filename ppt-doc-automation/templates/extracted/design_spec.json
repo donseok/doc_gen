@@ -1,0 +1,3314 @@
+{
+  "template_name": "그룹 공통 PPT템플릿",
+  "slide_size": {
+    "width_emu": 9906000,
+    "height_emu": 6858000,
+    "width_cm": 27.52,
+    "height_cm": 19.05
+  },
+  "layouts": [
+    {
+      "index": 0,
+      "name": "MAIN_동국제강",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 442133,
+          "top_emu": 2276475,
+          "width_emu": 5398943,
+          "height_emu": 956669,
+          "left_cm": 1.23,
+          "top_cm": 6.32,
+          "width_cm": 15.0,
+          "height_cm": 2.66
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 477015,
+          "top_emu": 3673264,
+          "width_emu": 5364061,
+          "height_emu": 248727,
+          "left_cm": 1.33,
+          "top_cm": 10.2,
+          "width_cm": 14.9,
+          "height_cm": 0.69
+        },
+        {
+          "type": "DATE (16)",
+          "idx": 14,
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 0,
+          "height_emu": 0,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0,
+          "height_cm": 0
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout0_0.png",
+          "left_emu": 8136105,
+          "top_emu": 135958,
+          "width_emu": 1466744,
+          "height_emu": 216000,
+          "left_cm": 22.6,
+          "top_cm": 0.38,
+          "width_cm": 4.07,
+          "height_cm": 0.6
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "목차1_동국제강",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 892948,
+          "top_emu": 1683187,
+          "width_emu": 3341001,
+          "height_emu": 329059,
+          "left_cm": 2.48,
+          "top_cm": 4.68,
+          "width_cm": 9.28,
+          "height_cm": 0.91
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 892947,
+          "top_emu": 2537712,
+          "width_emu": 3341001,
+          "height_emu": 3231363,
+          "left_cm": 2.48,
+          "top_cm": 7.05,
+          "width_cm": 9.28,
+          "height_cm": 8.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 8072305,
+          "top_emu": 2537712,
+          "width_emu": 938691,
+          "height_emu": 3231363,
+          "left_cm": 22.42,
+          "top_cm": 7.05,
+          "width_cm": 2.61,
+          "height_cm": 8.98
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout1_1.png",
+          "left_emu": 8136105,
+          "top_emu": 135958,
+          "width_emu": 1466744,
+          "height_emu": 216000,
+          "left_cm": 22.6,
+          "top_cm": 0.38,
+          "width_cm": 4.07,
+          "height_cm": 0.6
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "목차1_인터지스",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 892948,
+          "top_emu": 1683187,
+          "width_emu": 3341001,
+          "height_emu": 329059,
+          "left_cm": 2.48,
+          "top_cm": 4.68,
+          "width_cm": 9.28,
+          "height_cm": 0.91
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 892947,
+          "top_emu": 2537712,
+          "width_emu": 3341001,
+          "height_emu": 3231363,
+          "left_cm": 2.48,
+          "top_cm": 7.05,
+          "width_cm": 9.28,
+          "height_cm": 8.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 8072305,
+          "top_emu": 2537712,
+          "width_emu": 938691,
+          "height_emu": 3231363,
+          "left_cm": 22.42,
+          "top_cm": 7.05,
+          "width_cm": 2.61,
+          "height_cm": 8.98
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout2_2.png",
+          "left_emu": 8636820,
+          "top_emu": 164856,
+          "width_emu": 966029,
+          "height_emu": 162000,
+          "left_cm": 23.99,
+          "top_cm": 0.46,
+          "width_cm": 2.68,
+          "height_cm": 0.45
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "목차1_DK유엔씨",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 892948,
+          "top_emu": 1683187,
+          "width_emu": 3341001,
+          "height_emu": 329059,
+          "left_cm": 2.48,
+          "top_cm": 4.68,
+          "width_cm": 9.28,
+          "height_cm": 0.91
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 892947,
+          "top_emu": 2537712,
+          "width_emu": 3341001,
+          "height_emu": 3231363,
+          "left_cm": 2.48,
+          "top_cm": 7.05,
+          "width_cm": 9.28,
+          "height_cm": 8.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 8072305,
+          "top_emu": 2537712,
+          "width_emu": 938691,
+          "height_emu": 3231363,
+          "left_cm": 22.42,
+          "top_cm": 7.05,
+          "width_cm": 2.61,
+          "height_cm": 8.98
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout3_3.png",
+          "left_emu": 8855818,
+          "top_emu": 142122,
+          "width_emu": 747031,
+          "height_emu": 207468,
+          "left_cm": 24.6,
+          "top_cm": 0.39,
+          "width_cm": 2.08,
+          "height_cm": 0.58
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "목차1_페럼인프라",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 892948,
+          "top_emu": 1683187,
+          "width_emu": 3341001,
+          "height_emu": 329059,
+          "left_cm": 2.48,
+          "top_cm": 4.68,
+          "width_cm": 9.28,
+          "height_cm": 0.91
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 892947,
+          "top_emu": 2537712,
+          "width_emu": 3341001,
+          "height_emu": 3231363,
+          "left_cm": 2.48,
+          "top_cm": 7.05,
+          "width_cm": 9.28,
+          "height_cm": 8.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 8072305,
+          "top_emu": 2537712,
+          "width_emu": 938691,
+          "height_emu": 3231363,
+          "left_cm": 22.42,
+          "top_cm": 7.05,
+          "width_cm": 2.61,
+          "height_cm": 8.98
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout4_4.png",
+          "left_emu": 8401890,
+          "top_emu": 151571,
+          "width_emu": 1228725,
+          "height_emu": 188570,
+          "left_cm": 23.34,
+          "top_cm": 0.42,
+          "width_cm": 3.41,
+          "height_cm": 0.52
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "목차2_동국제강",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 3578629,
+          "top_emu": 2717935,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 7.55,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 3578629,
+          "top_emu": 3665471,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 10.18,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 18,
+          "left_emu": 3578629,
+          "top_emu": 4139239,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 11.5,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 19,
+          "left_emu": 3578629,
+          "top_emu": 4613007,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 12.81,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 3578629,
+          "top_emu": 5086774,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 14.13,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 27,
+          "left_emu": 884238,
+          "top_emu": 2137527,
+          "width_emu": 2608446,
+          "height_emu": 313932,
+          "left_cm": 2.46,
+          "top_cm": 5.94,
+          "width_cm": 7.25,
+          "height_cm": 0.87
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 28,
+          "left_emu": 3578629,
+          "top_emu": 3191703,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 8.87,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 877554,
+          "top_emu": 1708375,
+          "width_emu": 2621813,
+          "height_emu": 478609,
+          "left_cm": 2.44,
+          "top_cm": 4.75,
+          "width_cm": 7.28,
+          "height_cm": 1.33
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 2804498,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 7.79,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3745250,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 10.4,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4215626,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 11.71,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4686002,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 13.02,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 5156378,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 14.32,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3274874,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 9.1,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout5_5.png",
+          "left_emu": 8136105,
+          "top_emu": 135958,
+          "width_emu": 1466744,
+          "height_emu": 216000,
+          "left_cm": 22.6,
+          "top_cm": 0.38,
+          "width_cm": 4.07,
+          "height_cm": 0.6
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "목차2_인터지스",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 3578629,
+          "top_emu": 2717935,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 7.55,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 3578629,
+          "top_emu": 3665471,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 10.18,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 18,
+          "left_emu": 3578629,
+          "top_emu": 4139239,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 11.5,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 19,
+          "left_emu": 3578629,
+          "top_emu": 4613007,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 12.81,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 3578629,
+          "top_emu": 5086774,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 14.13,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 27,
+          "left_emu": 884238,
+          "top_emu": 2137527,
+          "width_emu": 2608446,
+          "height_emu": 313932,
+          "left_cm": 2.46,
+          "top_cm": 5.94,
+          "width_cm": 7.25,
+          "height_cm": 0.87
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 28,
+          "left_emu": 3578629,
+          "top_emu": 3191703,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 8.87,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 877554,
+          "top_emu": 1708375,
+          "width_emu": 2621813,
+          "height_emu": 478609,
+          "left_cm": 2.44,
+          "top_cm": 4.75,
+          "width_cm": 7.28,
+          "height_cm": 1.33
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 2804498,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 7.79,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3745250,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 10.4,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4215626,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 11.71,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4686002,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 13.02,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 5156378,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 14.32,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3274874,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 9.1,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout6_6.png",
+          "left_emu": 8636820,
+          "top_emu": 164856,
+          "width_emu": 966029,
+          "height_emu": 162000,
+          "left_cm": 23.99,
+          "top_cm": 0.46,
+          "width_cm": 2.68,
+          "height_cm": 0.45
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "목차2_DK유엔씨",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 3578629,
+          "top_emu": 2717935,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 7.55,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 3578629,
+          "top_emu": 3665471,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 10.18,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 18,
+          "left_emu": 3578629,
+          "top_emu": 4139239,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 11.5,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 19,
+          "left_emu": 3578629,
+          "top_emu": 4613007,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 12.81,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 3578629,
+          "top_emu": 5086774,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 14.13,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 27,
+          "left_emu": 884238,
+          "top_emu": 2137527,
+          "width_emu": 2608446,
+          "height_emu": 313932,
+          "left_cm": 2.46,
+          "top_cm": 5.94,
+          "width_cm": 7.25,
+          "height_cm": 0.87
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 28,
+          "left_emu": 3578629,
+          "top_emu": 3191703,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 8.87,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 877554,
+          "top_emu": 1708375,
+          "width_emu": 2621813,
+          "height_emu": 478609,
+          "left_cm": 2.44,
+          "top_cm": 4.75,
+          "width_cm": 7.28,
+          "height_cm": 1.33
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 2804498,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 7.79,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3745250,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 10.4,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4215626,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 11.71,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4686002,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 13.02,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 5156378,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 14.32,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3274874,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 9.1,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout7_7.png",
+          "left_emu": 8855818,
+          "top_emu": 142122,
+          "width_emu": 747031,
+          "height_emu": 207468,
+          "left_cm": 24.6,
+          "top_cm": 0.39,
+          "width_cm": 2.08,
+          "height_cm": 0.58
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "목차2_페럼인프라",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 3578629,
+          "top_emu": 2717935,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 7.55,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 3578629,
+          "top_emu": 3665471,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 10.18,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 18,
+          "left_emu": 3578629,
+          "top_emu": 4139239,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 11.5,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 19,
+          "left_emu": 3578629,
+          "top_emu": 4613007,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 12.81,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 3578629,
+          "top_emu": 5086774,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 14.13,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 27,
+          "left_emu": 884238,
+          "top_emu": 2137527,
+          "width_emu": 2608446,
+          "height_emu": 313932,
+          "left_cm": 2.46,
+          "top_cm": 5.94,
+          "width_cm": 7.25,
+          "height_cm": 0.87
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 28,
+          "left_emu": 3578629,
+          "top_emu": 3191703,
+          "width_emu": 2775736,
+          "height_emu": 248727,
+          "left_cm": 9.94,
+          "top_cm": 8.87,
+          "width_cm": 7.71,
+          "height_cm": 0.69
+        },
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 877554,
+          "top_emu": 1708375,
+          "width_emu": 2621813,
+          "height_emu": 478609,
+          "left_cm": 2.44,
+          "top_cm": 4.75,
+          "width_cm": 7.28,
+          "height_cm": 1.33
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 2804498,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 7.79,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3745250,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 10.4,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4215626,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 11.71,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 4686002,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 13.02,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 5156378,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 14.32,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "shape",
+          "left_emu": 3461567,
+          "top_emu": 3274874,
+          "width_emu": 75600,
+          "height_emu": 75600,
+          "left_cm": 9.62,
+          "top_cm": 9.1,
+          "width_cm": 0.21,
+          "height_cm": 0.21
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout8_8.png",
+          "left_emu": 8401890,
+          "top_emu": 151571,
+          "width_emu": 1228725,
+          "height_emu": 188570,
+          "left_cm": 23.34,
+          "top_cm": 0.42,
+          "width_cm": 3.41,
+          "height_cm": 0.52
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "경영이념 커버_동국제강",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 1097630,
+          "top_emu": 1944543,
+          "width_emu": 5471507,
+          "height_emu": 903288,
+          "left_cm": 3.05,
+          "top_cm": 5.4,
+          "width_cm": 15.2,
+          "height_cm": 2.51
+        },
+        {
+          "type": "PICTURE (18)",
+          "idx": 19,
+          "left_emu": 6978646,
+          "top_emu": 2879308,
+          "width_emu": 1803187,
+          "height_emu": 1793751,
+          "left_cm": 19.39,
+          "top_cm": 8.0,
+          "width_cm": 5.01,
+          "height_cm": 4.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 6936305,
+          "top_emu": 4907613,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 13.63,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 6936305,
+          "top_emu": 5259786,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 14.61,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 1111757,
+          "top_emu": 2500053,
+          "width_emu": 706778,
+          "height_emu": 144016,
+          "left_cm": 3.09,
+          "top_cm": 6.94,
+          "width_cm": 1.96,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 1836637,
+          "top_emu": 2500053,
+          "width_emu": 6907099,
+          "height_emu": 144016,
+          "left_cm": 5.1,
+          "top_cm": 6.94,
+          "width_cm": 19.19,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 7033015,
+          "top_emu": 4729360,
+          "width_emu": 1692000,
+          "height_emu": 50006,
+          "left_cm": 19.54,
+          "top_cm": 13.14,
+          "width_cm": 4.7,
+          "height_cm": 0.14
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout9_9.png",
+          "left_emu": 8136105,
+          "top_emu": 135958,
+          "width_emu": 1466744,
+          "height_emu": 216000,
+          "left_cm": 22.6,
+          "top_cm": 0.38,
+          "width_cm": 4.07,
+          "height_cm": 0.6
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "경영이념 커버_인터지스",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 1097630,
+          "top_emu": 1944543,
+          "width_emu": 5471507,
+          "height_emu": 903288,
+          "left_cm": 3.05,
+          "top_cm": 5.4,
+          "width_cm": 15.2,
+          "height_cm": 2.51
+        },
+        {
+          "type": "PICTURE (18)",
+          "idx": 19,
+          "left_emu": 6978646,
+          "top_emu": 2879308,
+          "width_emu": 1803187,
+          "height_emu": 1793751,
+          "left_cm": 19.39,
+          "top_cm": 8.0,
+          "width_cm": 5.01,
+          "height_cm": 4.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 6936305,
+          "top_emu": 4907613,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 13.63,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 6936305,
+          "top_emu": 5259786,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 14.61,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 1111757,
+          "top_emu": 2500053,
+          "width_emu": 706778,
+          "height_emu": 144016,
+          "left_cm": 3.09,
+          "top_cm": 6.94,
+          "width_cm": 1.96,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 1836637,
+          "top_emu": 2500053,
+          "width_emu": 6907099,
+          "height_emu": 144016,
+          "left_cm": 5.1,
+          "top_cm": 6.94,
+          "width_cm": 19.19,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 7033015,
+          "top_emu": 4729360,
+          "width_emu": 1692000,
+          "height_emu": 50006,
+          "left_cm": 19.54,
+          "top_cm": 13.14,
+          "width_cm": 4.7,
+          "height_cm": 0.14
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout10_10.png",
+          "left_emu": 8636820,
+          "top_emu": 164856,
+          "width_emu": 966029,
+          "height_emu": 162000,
+          "left_cm": 23.99,
+          "top_cm": 0.46,
+          "width_cm": 2.68,
+          "height_cm": 0.45
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "경영이념 커버_DK유엔씨",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 1097630,
+          "top_emu": 1944543,
+          "width_emu": 5471507,
+          "height_emu": 903288,
+          "left_cm": 3.05,
+          "top_cm": 5.4,
+          "width_cm": 15.2,
+          "height_cm": 2.51
+        },
+        {
+          "type": "PICTURE (18)",
+          "idx": 19,
+          "left_emu": 6978646,
+          "top_emu": 2879308,
+          "width_emu": 1803187,
+          "height_emu": 1793751,
+          "left_cm": 19.39,
+          "top_cm": 8.0,
+          "width_cm": 5.01,
+          "height_cm": 4.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 6936305,
+          "top_emu": 4907613,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 13.63,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 6936305,
+          "top_emu": 5259786,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 14.61,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 1111757,
+          "top_emu": 2500053,
+          "width_emu": 706778,
+          "height_emu": 144016,
+          "left_cm": 3.09,
+          "top_cm": 6.94,
+          "width_cm": 1.96,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 1836637,
+          "top_emu": 2500053,
+          "width_emu": 6907099,
+          "height_emu": 144016,
+          "left_cm": 5.1,
+          "top_cm": 6.94,
+          "width_cm": 19.19,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 7033015,
+          "top_emu": 4729360,
+          "width_emu": 1692000,
+          "height_emu": 50006,
+          "left_cm": 19.54,
+          "top_cm": 13.14,
+          "width_cm": 4.7,
+          "height_cm": 0.14
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout11_11.png",
+          "left_emu": 8855818,
+          "top_emu": 142122,
+          "width_emu": 747031,
+          "height_emu": 207468,
+          "left_cm": 24.6,
+          "top_cm": 0.39,
+          "width_cm": 2.08,
+          "height_cm": 0.58
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "경영이념 커버_페럼인프라",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 1097630,
+          "top_emu": 1944543,
+          "width_emu": 5471507,
+          "height_emu": 903288,
+          "left_cm": 3.05,
+          "top_cm": 5.4,
+          "width_cm": 15.2,
+          "height_cm": 2.51
+        },
+        {
+          "type": "PICTURE (18)",
+          "idx": 19,
+          "left_emu": 6978646,
+          "top_emu": 2879308,
+          "width_emu": 1803187,
+          "height_emu": 1793751,
+          "left_cm": 19.39,
+          "top_cm": 8.0,
+          "width_cm": 5.01,
+          "height_cm": 4.98
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 20,
+          "left_emu": 6936305,
+          "top_emu": 4907613,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 13.63,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 21,
+          "left_emu": 6936305,
+          "top_emu": 5259786,
+          "width_emu": 1788710,
+          "height_emu": 405154,
+          "left_cm": 19.27,
+          "top_cm": 14.61,
+          "width_cm": 4.97,
+          "height_cm": 1.13
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 1111757,
+          "top_emu": 2500053,
+          "width_emu": 706778,
+          "height_emu": 144016,
+          "left_cm": 3.09,
+          "top_cm": 6.94,
+          "width_cm": 1.96,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 1836637,
+          "top_emu": 2500053,
+          "width_emu": 6907099,
+          "height_emu": 144016,
+          "left_cm": 5.1,
+          "top_cm": 6.94,
+          "width_cm": 19.19,
+          "height_cm": 0.4
+        },
+        {
+          "type": "shape",
+          "left_emu": 7033015,
+          "top_emu": 4729360,
+          "width_emu": 1692000,
+          "height_emu": 50006,
+          "left_cm": 19.54,
+          "top_cm": 13.14,
+          "width_cm": 4.7,
+          "height_cm": 0.14
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout12_12.png",
+          "left_emu": 8401890,
+          "top_emu": 151571,
+          "width_emu": 1228725,
+          "height_emu": 188570,
+          "left_cm": 23.34,
+          "top_cm": 0.42,
+          "width_cm": 3.41,
+          "height_cm": 0.52
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "경영이념 본문_동국제강",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 628650,
+          "top_emu": 501650,
+          "width_emu": 3200651,
+          "height_emu": 472078,
+          "left_cm": 1.75,
+          "top_cm": 1.39,
+          "width_cm": 8.89,
+          "height_cm": 1.31
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 14,
+          "left_emu": 2647949,
+          "top_emu": 1762638,
+          "width_emu": 6324601,
+          "height_emu": 720212,
+          "left_cm": 7.36,
+          "top_cm": 4.9,
+          "width_cm": 17.57,
+          "height_cm": 2.0
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 15,
+          "left_emu": 933450,
+          "top_emu": 2166734,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 6.02,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 16,
+          "left_emu": 933450,
+          "top_emu": 1676388,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 4.66,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 628650,
+          "top_emu": 1174796,
+          "width_emu": 8623300,
+          "height_emu": 4927553,
+          "left_cm": 1.75,
+          "top_cm": 3.26,
+          "width_cm": 23.95,
+          "height_cm": 13.69
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout13_13.png",
+          "left_emu": 8136105,
+          "top_emu": 135958,
+          "width_emu": 1466744,
+          "height_emu": 216000,
+          "left_cm": 22.6,
+          "top_cm": 0.38,
+          "width_cm": 4.07,
+          "height_cm": 0.6
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "경영이념 본문_인터지스",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 628650,
+          "top_emu": 501650,
+          "width_emu": 3200651,
+          "height_emu": 472078,
+          "left_cm": 1.75,
+          "top_cm": 1.39,
+          "width_cm": 8.89,
+          "height_cm": 1.31
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 14,
+          "left_emu": 2647949,
+          "top_emu": 1762638,
+          "width_emu": 6324601,
+          "height_emu": 720212,
+          "left_cm": 7.36,
+          "top_cm": 4.9,
+          "width_cm": 17.57,
+          "height_cm": 2.0
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 15,
+          "left_emu": 933450,
+          "top_emu": 2166734,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 6.02,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 16,
+          "left_emu": 933450,
+          "top_emu": 1676388,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 4.66,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 628650,
+          "top_emu": 1174796,
+          "width_emu": 8623300,
+          "height_emu": 4927553,
+          "left_cm": 1.75,
+          "top_cm": 3.26,
+          "width_cm": 23.95,
+          "height_cm": 13.69
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout14_14.png",
+          "left_emu": 8636820,
+          "top_emu": 164856,
+          "width_emu": 966029,
+          "height_emu": 162000,
+          "left_cm": 23.99,
+          "top_cm": 0.46,
+          "width_cm": 2.68,
+          "height_cm": 0.45
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "경영이념 본문_DK유엔씨",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 628650,
+          "top_emu": 501650,
+          "width_emu": 3200651,
+          "height_emu": 472078,
+          "left_cm": 1.75,
+          "top_cm": 1.39,
+          "width_cm": 8.89,
+          "height_cm": 1.31
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 14,
+          "left_emu": 2647949,
+          "top_emu": 1762638,
+          "width_emu": 6324601,
+          "height_emu": 720212,
+          "left_cm": 7.36,
+          "top_cm": 4.9,
+          "width_cm": 17.57,
+          "height_cm": 2.0
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 15,
+          "left_emu": 933450,
+          "top_emu": 2166734,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 6.02,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 16,
+          "left_emu": 933450,
+          "top_emu": 1676388,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 4.66,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 628650,
+          "top_emu": 1174796,
+          "width_emu": 8623300,
+          "height_emu": 4927553,
+          "left_cm": 1.75,
+          "top_cm": 3.26,
+          "width_cm": 23.95,
+          "height_cm": 13.69
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout15_15.png",
+          "left_emu": 8855818,
+          "top_emu": 142122,
+          "width_emu": 747031,
+          "height_emu": 207468,
+          "left_cm": 24.6,
+          "top_cm": 0.39,
+          "width_cm": 2.08,
+          "height_cm": 0.58
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "경영이념 본문_페럼인프라",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 628650,
+          "top_emu": 501650,
+          "width_emu": 3200651,
+          "height_emu": 472078,
+          "left_cm": 1.75,
+          "top_cm": 1.39,
+          "width_cm": 8.89,
+          "height_cm": 1.31
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 14,
+          "left_emu": 2647949,
+          "top_emu": 1762638,
+          "width_emu": 6324601,
+          "height_emu": 720212,
+          "left_cm": 7.36,
+          "top_cm": 4.9,
+          "width_cm": 17.57,
+          "height_cm": 2.0
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 15,
+          "left_emu": 933450,
+          "top_emu": 2166734,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 6.02,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 16,
+          "left_emu": 933450,
+          "top_emu": 1676388,
+          "width_emu": 1371600,
+          "height_emu": 410603,
+          "left_cm": 2.59,
+          "top_cm": 4.66,
+          "width_cm": 3.81,
+          "height_cm": 1.14
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 628650,
+          "top_emu": 1174796,
+          "width_emu": 8623300,
+          "height_emu": 4927553,
+          "left_cm": 1.75,
+          "top_cm": 3.26,
+          "width_cm": 23.95,
+          "height_cm": 13.69
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout16_16.png",
+          "left_emu": 8401890,
+          "top_emu": 151571,
+          "width_emu": 1228725,
+          "height_emu": 188570,
+          "left_cm": 23.34,
+          "top_cm": 0.42,
+          "width_cm": 3.41,
+          "height_cm": 0.52
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "간지_공통",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 66040,
+          "top_emu": 2643091,
+          "width_emu": 1439660,
+          "height_emu": 969496,
+          "left_cm": 0.18,
+          "top_cm": 7.34,
+          "width_cm": 4.0,
+          "height_cm": 2.69
+        },
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 1551680,
+          "top_emu": 2807265,
+          "width_emu": 7619470,
+          "height_emu": 650871,
+          "left_cm": 4.31,
+          "top_cm": 7.8,
+          "width_cm": 21.17,
+          "height_cm": 1.81
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "shape",
+          "left_emu": 220460,
+          "top_emu": 2647953,
+          "width_emu": 1130820,
+          "height_emu": 717548,
+          "left_cm": 0.61,
+          "top_cm": 7.36,
+          "width_cm": 3.14,
+          "height_cm": 1.99
+        },
+        {
+          "type": "shape",
+          "left_emu": 1505700,
+          "top_emu": 2647952,
+          "width_emu": 8400300,
+          "height_emu": 969496,
+          "left_cm": 4.18,
+          "top_cm": 7.36,
+          "width_cm": 23.33,
+          "height_cm": 2.69
+        },
+        {
+          "type": "shape",
+          "left_emu": 220460,
+          "top_emu": 3458135,
+          "width_emu": 1130820,
+          "height_emu": 154452,
+          "left_cm": 0.61,
+          "top_cm": 9.61,
+          "width_cm": 3.14,
+          "height_cm": 0.43
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "Slide_동국제강(title)",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 425856,
+          "top_emu": 112945,
+          "width_emu": 1128835,
+          "height_emu": 286232,
+          "left_cm": 1.18,
+          "top_cm": 0.31,
+          "width_cm": 3.14,
+          "height_cm": 0.8
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout18_17.png",
+          "left_emu": 8586680,
+          "top_emu": 164975,
+          "width_emu": 1137697,
+          "height_emu": 167543,
+          "left_cm": 23.85,
+          "top_cm": 0.46,
+          "width_cm": 3.16,
+          "height_cm": 0.47
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Slide_동국제강",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout19_18.png",
+          "left_emu": 8586680,
+          "top_emu": 164975,
+          "width_emu": 1137697,
+          "height_emu": 167543,
+          "left_cm": 23.85,
+          "top_cm": 0.46,
+          "width_cm": 3.16,
+          "height_cm": 0.47
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Slide_동국제강(blank)",
+      "placeholders": [
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788318,
+          "top_emu": 6601746,
+          "width_emu": 1534560,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 18,
+          "left_emu": 278099,
+          "top_emu": 441325,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.77,
+          "top_cm": 1.23,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout20_19.png",
+          "left_emu": 8586681,
+          "top_emu": 164976,
+          "width_emu": 1137696,
+          "height_emu": 167543,
+          "left_cm": 23.85,
+          "top_cm": 0.46,
+          "width_cm": 3.16,
+          "height_cm": 0.47
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "Slide_인터지스(title)",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 425856,
+          "top_emu": 112945,
+          "width_emu": 1128835,
+          "height_emu": 286232,
+          "left_cm": 1.18,
+          "top_cm": 0.31,
+          "width_cm": 3.14,
+          "height_cm": 0.8
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout21_20.png",
+          "left_emu": 9016350,
+          "top_emu": 190444,
+          "width_emu": 691201,
+          "height_emu": 115912,
+          "left_cm": 25.05,
+          "top_cm": 0.53,
+          "width_cm": 1.92,
+          "height_cm": 0.32
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "Slide_인터지스",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout22_21.png",
+          "left_emu": 9016350,
+          "top_emu": 190444,
+          "width_emu": 691201,
+          "height_emu": 115912,
+          "left_cm": 25.05,
+          "top_cm": 0.53,
+          "width_cm": 1.92,
+          "height_cm": 0.32
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "Slide_인터지스(blank)",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 441325,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 1.23,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout23_22.png",
+          "left_emu": 9034461,
+          "top_emu": 192153,
+          "width_emu": 673090,
+          "height_emu": 118980,
+          "left_cm": 25.1,
+          "top_cm": 0.53,
+          "width_cm": 1.87,
+          "height_cm": 0.33
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Slide_DK유엔씨(title)",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 425856,
+          "top_emu": 112945,
+          "width_emu": 1128835,
+          "height_emu": 286232,
+          "left_cm": 1.18,
+          "top_cm": 0.31,
+          "width_cm": 3.14,
+          "height_cm": 0.8
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout24_23.png",
+          "left_emu": 9185039,
+          "top_emu": 173936,
+          "width_emu": 531303,
+          "height_emu": 147555,
+          "left_cm": 25.51,
+          "top_cm": 0.48,
+          "width_cm": 1.48,
+          "height_cm": 0.41
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "Slide_DK유엔씨",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout25_24.png",
+          "left_emu": 9185039,
+          "top_emu": 173936,
+          "width_emu": 531303,
+          "height_emu": 147555,
+          "left_cm": 25.51,
+          "top_cm": 0.48,
+          "width_cm": 1.48,
+          "height_cm": 0.41
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "name": "Slide_DK유엔씨(blank)",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 441325,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 1.23,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout26_25.png",
+          "left_emu": 9185039,
+          "top_emu": 173936,
+          "width_emu": 531303,
+          "height_emu": 147555,
+          "left_cm": 25.51,
+          "top_cm": 0.48,
+          "width_cm": 1.48,
+          "height_cm": 0.41
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "Slide_페럼인프라(title)",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 13,
+          "left_emu": 425856,
+          "top_emu": 112945,
+          "width_emu": 1128835,
+          "height_emu": 286232,
+          "left_cm": 1.18,
+          "top_cm": 0.31,
+          "width_cm": 3.14,
+          "height_cm": 0.8
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout27_26.png",
+          "left_emu": 8811307,
+          "top_emu": 192471,
+          "width_emu": 908958,
+          "height_emu": 139496,
+          "left_cm": 24.48,
+          "top_cm": 0.53,
+          "width_cm": 2.52,
+          "height_cm": 0.39
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "name": "Slide_페럼인프라",
+      "placeholders": [
+        {
+          "type": "TITLE (1)",
+          "idx": 0,
+          "left_emu": 365035,
+          "top_emu": 433827,
+          "width_emu": 9355229,
+          "height_emu": 708943,
+          "left_cm": 1.01,
+          "top_cm": 1.21,
+          "width_cm": 25.99,
+          "height_cm": 1.97
+        },
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 1477962,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 4.11,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout28_27.png",
+          "left_emu": 8811307,
+          "top_emu": 192471,
+          "width_emu": 908958,
+          "height_emu": 139496,
+          "left_cm": 24.48,
+          "top_cm": 0.53,
+          "width_cm": 2.52,
+          "height_cm": 0.39
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "name": "Slide_페럼인프라(blank)",
+      "placeholders": [
+        {
+          "type": "BODY (2)",
+          "idx": 17,
+          "left_emu": 270064,
+          "top_emu": 441325,
+          "width_emu": 9360550,
+          "height_emu": 877888,
+          "left_cm": 0.75,
+          "top_cm": 1.23,
+          "width_cm": 26.0,
+          "height_cm": 2.44
+        },
+        {
+          "type": "SLIDE_NUMBER (13)",
+          "idx": 4,
+          "left_emu": 9264136,
+          "top_emu": 6601746,
+          "width_emu": 374513,
+          "height_emu": 147600,
+          "left_cm": 25.73,
+          "top_cm": 18.34,
+          "width_cm": 1.04,
+          "height_cm": 0.41
+        },
+        {
+          "type": "FOOTER (15)",
+          "idx": 3,
+          "left_emu": 7788317,
+          "top_emu": 6601746,
+          "width_emu": 1534561,
+          "height_emu": 148648,
+          "left_cm": 21.63,
+          "top_cm": 18.34,
+          "width_cm": 4.26,
+          "height_cm": 0.41
+        }
+      ],
+      "fixed_elements": [
+        {
+          "type": "shape",
+          "left_emu": 0,
+          "top_emu": 0,
+          "width_emu": 158750,
+          "height_emu": 158750,
+          "left_cm": 0,
+          "top_cm": 0,
+          "width_cm": 0.44,
+          "height_cm": 0.44
+        },
+        {
+          "type": "logo",
+          "filename": "logo_layout29_28.png",
+          "left_emu": 8811307,
+          "top_emu": 192471,
+          "width_emu": 908958,
+          "height_emu": 139496,
+          "left_cm": 24.48,
+          "top_cm": 0.53,
+          "width_cm": 2.52,
+          "height_cm": 0.39
+        }
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "layout_index": 0,
+      "filename": "logo_layout0_0.png",
+      "left_emu": 8136105,
+      "top_emu": 135958,
+      "width_emu": 1466744,
+      "height_emu": 216000,
+      "left_cm": 22.6,
+      "top_cm": 0.38,
+      "width_cm": 4.07,
+      "height_cm": 0.6
+    },
+    {
+      "layout_index": 1,
+      "filename": "logo_layout1_1.png",
+      "left_emu": 8136105,
+      "top_emu": 135958,
+      "width_emu": 1466744,
+      "height_emu": 216000,
+      "left_cm": 22.6,
+      "top_cm": 0.38,
+      "width_cm": 4.07,
+      "height_cm": 0.6
+    },
+    {
+      "layout_index": 2,
+      "filename": "logo_layout2_2.png",
+      "left_emu": 8636820,
+      "top_emu": 164856,
+      "width_emu": 966029,
+      "height_emu": 162000,
+      "left_cm": 23.99,
+      "top_cm": 0.46,
+      "width_cm": 2.68,
+      "height_cm": 0.45
+    },
+    {
+      "layout_index": 3,
+      "filename": "logo_layout3_3.png",
+      "left_emu": 8855818,
+      "top_emu": 142122,
+      "width_emu": 747031,
+      "height_emu": 207468,
+      "left_cm": 24.6,
+      "top_cm": 0.39,
+      "width_cm": 2.08,
+      "height_cm": 0.58
+    },
+    {
+      "layout_index": 4,
+      "filename": "logo_layout4_4.png",
+      "left_emu": 8401890,
+      "top_emu": 151571,
+      "width_emu": 1228725,
+      "height_emu": 188570,
+      "left_cm": 23.34,
+      "top_cm": 0.42,
+      "width_cm": 3.41,
+      "height_cm": 0.52
+    },
+    {
+      "layout_index": 5,
+      "filename": "logo_layout5_5.png",
+      "left_emu": 8136105,
+      "top_emu": 135958,
+      "width_emu": 1466744,
+      "height_emu": 216000,
+      "left_cm": 22.6,
+      "top_cm": 0.38,
+      "width_cm": 4.07,
+      "height_cm": 0.6
+    },
+    {
+      "layout_index": 6,
+      "filename": "logo_layout6_6.png",
+      "left_emu": 8636820,
+      "top_emu": 164856,
+      "width_emu": 966029,
+      "height_emu": 162000,
+      "left_cm": 23.99,
+      "top_cm": 0.46,
+      "width_cm": 2.68,
+      "height_cm": 0.45
+    },
+    {
+      "layout_index": 7,
+      "filename": "logo_layout7_7.png",
+      "left_emu": 8855818,
+      "top_emu": 142122,
+      "width_emu": 747031,
+      "height_emu": 207468,
+      "left_cm": 24.6,
+      "top_cm": 0.39,
+      "width_cm": 2.08,
+      "height_cm": 0.58
+    },
+    {
+      "layout_index": 8,
+      "filename": "logo_layout8_8.png",
+      "left_emu": 8401890,
+      "top_emu": 151571,
+      "width_emu": 1228725,
+      "height_emu": 188570,
+      "left_cm": 23.34,
+      "top_cm": 0.42,
+      "width_cm": 3.41,
+      "height_cm": 0.52
+    },
+    {
+      "layout_index": 9,
+      "filename": "logo_layout9_9.png",
+      "left_emu": 8136105,
+      "top_emu": 135958,
+      "width_emu": 1466744,
+      "height_emu": 216000,
+      "left_cm": 22.6,
+      "top_cm": 0.38,
+      "width_cm": 4.07,
+      "height_cm": 0.6
+    },
+    {
+      "layout_index": 10,
+      "filename": "logo_layout10_10.png",
+      "left_emu": 8636820,
+      "top_emu": 164856,
+      "width_emu": 966029,
+      "height_emu": 162000,
+      "left_cm": 23.99,
+      "top_cm": 0.46,
+      "width_cm": 2.68,
+      "height_cm": 0.45
+    },
+    {
+      "layout_index": 11,
+      "filename": "logo_layout11_11.png",
+      "left_emu": 8855818,
+      "top_emu": 142122,
+      "width_emu": 747031,
+      "height_emu": 207468,
+      "left_cm": 24.6,
+      "top_cm": 0.39,
+      "width_cm": 2.08,
+      "height_cm": 0.58
+    },
+    {
+      "layout_index": 12,
+      "filename": "logo_layout12_12.png",
+      "left_emu": 8401890,
+      "top_emu": 151571,
+      "width_emu": 1228725,
+      "height_emu": 188570,
+      "left_cm": 23.34,
+      "top_cm": 0.42,
+      "width_cm": 3.41,
+      "height_cm": 0.52
+    },
+    {
+      "layout_index": 13,
+      "filename": "logo_layout13_13.png",
+      "left_emu": 8136105,
+      "top_emu": 135958,
+      "width_emu": 1466744,
+      "height_emu": 216000,
+      "left_cm": 22.6,
+      "top_cm": 0.38,
+      "width_cm": 4.07,
+      "height_cm": 0.6
+    },
+    {
+      "layout_index": 14,
+      "filename": "logo_layout14_14.png",
+      "left_emu": 8636820,
+      "top_emu": 164856,
+      "width_emu": 966029,
+      "height_emu": 162000,
+      "left_cm": 23.99,
+      "top_cm": 0.46,
+      "width_cm": 2.68,
+      "height_cm": 0.45
+    },
+    {
+      "layout_index": 15,
+      "filename": "logo_layout15_15.png",
+      "left_emu": 8855818,
+      "top_emu": 142122,
+      "width_emu": 747031,
+      "height_emu": 207468,
+      "left_cm": 24.6,
+      "top_cm": 0.39,
+      "width_cm": 2.08,
+      "height_cm": 0.58
+    },
+    {
+      "layout_index": 16,
+      "filename": "logo_layout16_16.png",
+      "left_emu": 8401890,
+      "top_emu": 151571,
+      "width_emu": 1228725,
+      "height_emu": 188570,
+      "left_cm": 23.34,
+      "top_cm": 0.42,
+      "width_cm": 3.41,
+      "height_cm": 0.52
+    },
+    {
+      "layout_index": 18,
+      "filename": "logo_layout18_17.png",
+      "left_emu": 8586680,
+      "top_emu": 164975,
+      "width_emu": 1137697,
+      "height_emu": 167543,
+      "left_cm": 23.85,
+      "top_cm": 0.46,
+      "width_cm": 3.16,
+      "height_cm": 0.47
+    },
+    {
+      "layout_index": 19,
+      "filename": "logo_layout19_18.png",
+      "left_emu": 8586680,
+      "top_emu": 164975,
+      "width_emu": 1137697,
+      "height_emu": 167543,
+      "left_cm": 23.85,
+      "top_cm": 0.46,
+      "width_cm": 3.16,
+      "height_cm": 0.47
+    },
+    {
+      "layout_index": 20,
+      "filename": "logo_layout20_19.png",
+      "left_emu": 8586681,
+      "top_emu": 164976,
+      "width_emu": 1137696,
+      "height_emu": 167543,
+      "left_cm": 23.85,
+      "top_cm": 0.46,
+      "width_cm": 3.16,
+      "height_cm": 0.47
+    },
+    {
+      "layout_index": 21,
+      "filename": "logo_layout21_20.png",
+      "left_emu": 9016350,
+      "top_emu": 190444,
+      "width_emu": 691201,
+      "height_emu": 115912,
+      "left_cm": 25.05,
+      "top_cm": 0.53,
+      "width_cm": 1.92,
+      "height_cm": 0.32
+    },
+    {
+      "layout_index": 22,
+      "filename": "logo_layout22_21.png",
+      "left_emu": 9016350,
+      "top_emu": 190444,
+      "width_emu": 691201,
+      "height_emu": 115912,
+      "left_cm": 25.05,
+      "top_cm": 0.53,
+      "width_cm": 1.92,
+      "height_cm": 0.32
+    },
+    {
+      "layout_index": 23,
+      "filename": "logo_layout23_22.png",
+      "left_emu": 9034461,
+      "top_emu": 192153,
+      "width_emu": 673090,
+      "height_emu": 118980,
+      "left_cm": 25.1,
+      "top_cm": 0.53,
+      "width_cm": 1.87,
+      "height_cm": 0.33
+    },
+    {
+      "layout_index": 24,
+      "filename": "logo_layout24_23.png",
+      "left_emu": 9185039,
+      "top_emu": 173936,
+      "width_emu": 531303,
+      "height_emu": 147555,
+      "left_cm": 25.51,
+      "top_cm": 0.48,
+      "width_cm": 1.48,
+      "height_cm": 0.41
+    },
+    {
+      "layout_index": 25,
+      "filename": "logo_layout25_24.png",
+      "left_emu": 9185039,
+      "top_emu": 173936,
+      "width_emu": 531303,
+      "height_emu": 147555,
+      "left_cm": 25.51,
+      "top_cm": 0.48,
+      "width_cm": 1.48,
+      "height_cm": 0.41
+    },
+    {
+      "layout_index": 26,
+      "filename": "logo_layout26_25.png",
+      "left_emu": 9185039,
+      "top_emu": 173936,
+      "width_emu": 531303,
+      "height_emu": 147555,
+      "left_cm": 25.51,
+      "top_cm": 0.48,
+      "width_cm": 1.48,
+      "height_cm": 0.41
+    },
+    {
+      "layout_index": 27,
+      "filename": "logo_layout27_26.png",
+      "left_emu": 8811307,
+      "top_emu": 192471,
+      "width_emu": 908958,
+      "height_emu": 139496,
+      "left_cm": 24.48,
+      "top_cm": 0.53,
+      "width_cm": 2.52,
+      "height_cm": 0.39
+    },
+    {
+      "layout_index": 28,
+      "filename": "logo_layout28_27.png",
+      "left_emu": 8811307,
+      "top_emu": 192471,
+      "width_emu": 908958,
+      "height_emu": 139496,
+      "left_cm": 24.48,
+      "top_cm": 0.53,
+      "width_cm": 2.52,
+      "height_cm": 0.39
+    },
+    {
+      "layout_index": 29,
+      "filename": "logo_layout29_28.png",
+      "left_emu": 8811307,
+      "top_emu": 192471,
+      "width_emu": 908958,
+      "height_emu": 139496,
+      "left_cm": 24.48,
+      "top_cm": 0.53,
+      "width_cm": 2.52,
+      "height_cm": 0.39
+    }
+  ],
+  "colors": {
+    "primary": "#262626",
+    "secondary": "#002452",
+    "accent": "#D55633",
+    "gray": "#B6B6B6",
+    "background": "#FFFFFF",
+    "text_dark": "#262626",
+    "text_light": "#FFFFFF"
+  },
+  "fonts": {
+    "title": "본고딕 Normal",
+    "body": "본고딕 Normal",
+    "english": "Arial"
+  }
+}

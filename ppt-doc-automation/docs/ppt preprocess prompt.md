@@ -5,6 +5,28 @@
 - AskUserQuestion 도구를 적극활용하여 사용자와 소통해서 높은 품질을 달성합니다.
 - 기본적으로 --ultrathink 모드를 사용합니다.
 
+### 🎨 디자인 혁신 전략 (Design Innovation Strategy)
+
+**1. No-Bullet Rule (텍스트 나열 금지)**
+- **원칙**: 슬라이드당 텍스트 줄글(Bullet point)이 3줄을 초과하면 **무조건** 시각적 요소(다이어그램, 카드, 차트)로 변환해야 합니다.
+- **예외**: 목차(layout_id: 2) 제외.
+- **변환 가이드**:
+  - 3단계 절차 -> `process_flow`
+  - 4가지 특징 -> `icon_box_grid`
+  - 2가지 대조 -> `comparison_chart`
+  - 데이터 나열 -> `chart`
+
+**2. Full-Slide Image Strategy (몰입형 배경)**
+- **원칙**: 단순한 흰 배경 대신, 슬라이드 전체를 아우르는 고화질 배경 이미지나 그라데이션을 적극 활용합니다.
+- **적용**: `image_generation_prompt`에 배경용 이미지 생성 지시를 포함합니다. (예: "Subtle tech background with low opacity", "Abstract geometric shapes in navy and white")
+
+**3. Visual Metaphor (시각적 은유)**
+- **원칙**: 프로젝트의 성격에 맞는 '디자인 페르소나'를 설정하고 모든 슬라이드에 일관되게 적용합니다.
+- **예시**:
+  - **건축/건설**: 설계도, 청사진, 벽돌, 크레인 메타포
+  - **IT/소프트웨어**: 회로도, 네트워크 노드, 픽셀, 코드 블록 메타포
+  - **물류/운송**: 컨테이너, 도로, 속도계, 박스 메타포
+
 ### 참조 문서
 
 > **필수 참조**: 마스터 레이아웃 및 플레이스홀더 상세 정보는 반드시 아래 문서를 참조하세요.
@@ -273,11 +295,12 @@
 - 단계별 설명: **Numbered Step Cards** (원형 번호 + 설명)
 - 기술 스택: **Tech Logo Grid** (로고 아이콘 배열)
 
-> ⚠️ **핵심 원칙**: 3줄 이상의 불릿 리스트는 반드시 시각 요소로 변환.
+> ⚠️ **핵심 원칙 (No-Bullet Rule)**: 3줄 이상의 불릿 리스트는 **절대 금지**. 반드시 시각 요소(다이어그램, 카드, 그리드)로 변환할 것.
 > 청중의 인지 부하를 줄이고 정보 전달 효율을 극대화.
 
 > ⚠️ **중요**: 숫자 나열이나 단계 설명을 텍스트로만 표현하지 말 것.
 > 청중이 "읽지 않고 보는" 슬라이드를 목표로 시각 요소 우선 설계.
+> 배경 이미지를 적극 활용하여 "보고서"가 아닌 "작품" 같은 슬라이드를 만들 것.
 
 ---
 
@@ -361,6 +384,11 @@ AI 이미지 생성 도구 (DALL-E, Midjourney, Gemini 등)에서 사용할 수 
       "style": "스타일 키워드 (flat design, isometric, photorealistic 등)",
       "size": "권장 크기 (예: 1920x1080)",
       "negative_prompt": "제외할 요소 (optional)"
+    },
+    "background_image": {
+      "prompt": "배경 이미지 생성 프롬프트 (텍스트 가독성을 위해 불투명도 조절 전제)",
+      "style": "abstract, minimal, texture",
+      "usage": "슬라이드 전체 배경 (Full Slide)"
     },
     "icon_set": {
       "prompt": "아이콘 세트 생성 프롬프트",
